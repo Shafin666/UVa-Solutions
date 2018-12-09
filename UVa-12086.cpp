@@ -1,3 +1,4 @@
+```C++
 #include <bits/stdc++.h>
 #define mp make_pair
 #define pb push_back
@@ -56,3 +57,4 @@ int main()
 	}
     return 0;
 }
+```
