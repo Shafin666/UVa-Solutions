@@ -13,7 +13,6 @@ struct BinaryIndexedTree {
 	void init() {
 		memset(a, 0, sizeof(a));
 	}
-
 	void add(int idx, int v) {
 		while(idx <= maxn) {
 			a[idx] += v;
