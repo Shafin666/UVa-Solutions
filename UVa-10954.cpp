@@ -12,12 +12,12 @@ int main()
 	//freopen("out.txt", "w", stdout);
 
 	multiset<ll> M;
-	ll n, i, x;
+	ll n, x;
 
 	while(scanf("%lld", &n) && n) {
 		ll ans = 0;
 
-		for(i = 0; i < n; i++) {
+		for(int i = 0; i < n; i++) {
 			scanf("%lld", &x);
 			M.insert(x);
 		}
